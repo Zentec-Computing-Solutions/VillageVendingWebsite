@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en-NZ">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Village Vending for farm gate milk dispenser consulting, equipment, bottles and support.">
+  <title>Contact Us | Village Vending</title>
+  <link rel="icon" href="assets/images/VM-logo-blue_on_white.jpg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-shell"><a class="brand" href="index.html" aria-label="Village Vending home"><img src="assets/images/VillageVending-Logo-210728.png" alt="Village Vending"></a><nav class="desktop-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="dispensers.html">Dispensers</a><a href="about-us.html">About Us</a><a href="news.html">News</a><a href="find-milk.html">Find Milk</a><a href="contact-us.html" aria-current="page">Contact Us</a></nav><button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" data-menu-button><span></span></button></div>
+    <nav class="container mobile-panel" aria-label="Mobile navigation" data-mobile-panel><a href="index.html">Home</a><a href="dispensers.html">Dispensers</a><a href="about-us.html">About Us</a><a href="news.html">News</a><a href="find-milk.html">Find Milk</a><a href="contact-us.html" aria-current="page">Contact Us</a></nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Get in touch</p>
+        <h1>Talk to Village Vending about your farm gate setup.</h1>
+        <p class="lead">Call the team or send a message for a free chat about services, dispensing machines and the best setup for your farm.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-layout">
+        <aside class="panel pad contact-list">
+          <div><h3>Village Milk Ltd</h3><p>472 Abel Tasman Drive<br>RD 1<br>Takaka 7183<br>New Zealand</p></div>
+          <div><h3>Richard Houston</h3><p>Managing Director<br><a href="tel:+64276156693">027 615 6693</a><br><a href="mailto:richard@villagemilk.co.nz">richard@villagemilk.co.nz</a></p></div>
+          <div><h3>Mark Houston</h3><p>CEO<br><a href="tel:+64272292920">027 229 2920</a><br><a href="mailto:mark@villagemilk.co.nz">mark@villagemilk.co.nz</a></p></div>
+          <p><a href="https://www.facebook.com/pages/Village-Milk/104278253030585">Join us on Facebook</a></p>
+        </aside>
+
+        <form class="panel pad form-grid" action="#" method="post" data-contact-form>
+          <!-- Forminit placeholder: replace action/method/field names when the Forminit endpoint is ready. -->
+          <div class="field"><label for="name">Name *</label><input id="name" name="name" autocomplete="name" required></div>
+          <div class="field"><label for="email">Email *</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+          <div class="field"><label for="phone">Phone *</label><input id="phone" name="phone" type="tel" autocomplete="tel" required></div>
+          <div class="field"><label for="enquiry-type">Nature of enquiry</label><select id="enquiry-type" name="enquiry_type"><option value="general">General</option><option value="dispensers">Dispensers</option><option value="consultancy">Consultancy</option><option value="bottles">Bottles</option><option value="support">Support</option></select></div>
+          <div class="field conditional-field" data-show-for="dispensers consultancy bottles"><label for="business">Business name</label><input id="business" name="business_name"></div>
+          <div class="field conditional-field" data-show-for="dispensers consultancy bottles"><label for="region">NZ region or Australia</label><select id="region" name="region"><option>Northland</option><option>Auckland</option><option>Waikato</option><option>Bay of Plenty</option><option>Gisborne</option><option>Hawke's Bay</option><option>Taranaki</option><option>Manawatu-Whanganui</option><option>Wellington</option><option>Tasman-Nelson</option><option>Marlborough</option><option>West Coast</option><option>Canterbury</option><option>Otago</option><option>Southland</option><option>Australia</option></select></div>
+          <div class="field full conditional-field" data-show-for="dispensers consultancy"><label for="address">Physical address</label><textarea id="address" name="physical_address"></textarea></div>
+          <div class="field full conditional-field" data-show-for="dispensers consultancy"><label for="products">Products for vending</label><select id="products" name="products" multiple><option>Raw milk</option><option>Pasteurised milk</option><option>Water - still and sparkling</option><option>Packaged refrigerated goods</option><option>Honey</option><option>Eggs</option><option>Fresh pasta</option><option>Boxed fruit and veg</option></select><p class="form-note">Hold Ctrl or Command to select more than one.</p></div>
+          <div class="field conditional-field" data-show-for="support"><label for="machine">Machine or model</label><input id="machine" name="machine_model"></div>
+          <div class="field conditional-field" data-show-for="support"><label for="urgency">Urgency</label><select id="urgency" name="urgency"><option>Routine</option><option>Soon</option><option>Urgent</option></select></div>
+          <div class="field full"><label for="message">Message</label><textarea id="message" name="message"></textarea></div>
+          <p class="success-note" tabindex="-1" data-success-note>Thanks, your enquiry has been prepared.</p>
+          <button class="button" type="submit">Send enquiry</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="container">
+        <iframe class="map-frame" title="Village Milk Takaka location" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24143.272979601985!2d172.856043!3d-40.851919!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d3c89046b453fa9%3A0x3c6095ab61602d2e!2sVillage%20Milk%20-%20Takaka!5e0!3m2!1sen!2sus!4v1608510561310!5m2!1sen!2sus"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-grid"><div><img src="assets/images/VillageVending-Logo-210204-WhiteTransparent.png" alt="Village Vending"><p>Fresh milk direct from farm to customer.</p></div><nav class="footer-links" aria-label="Footer navigation"><a href="dispensers.html">Dispensers</a><a href="find-milk.html">Find Milk</a><a href="contact-us.html">Contact</a></nav></div><div class="container copyright">©2020- Village Vending.</div></footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
